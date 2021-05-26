@@ -13,7 +13,7 @@ const products = [
     { id: 10, title: 'Cheetos, texas grill,300g', price: 300 },
 ];
 
-const renderProduct = (item, img ='https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png') =>
+const renderProduct = (item, img ='https://trydev.ru/placeholder.png') =>
              `<div class="product-item">
                 <img src="${img}" alt="image" class="product-img">
                 <h3 class="product-title">${item.title}</h3>
