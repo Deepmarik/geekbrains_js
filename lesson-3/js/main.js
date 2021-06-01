@@ -1,4 +1,31 @@
+const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
+
 var goodsListSection = document.getElementById('goods-list-section');
+
+function httpGet(url) {
+    return new Promise(function(resolve, reject) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+
+        xhr.onload = function() {
+            if (this.status == 200) {
+                resolve(JSON.parse(this.response));
+            } else {
+                var error = new Error(this.statusText);
+                error.code = this.status;
+                reject(error);
+            }
+        };
+
+        xhr.onerror = function() {
+            reject(new Error("Network Error"));
+        };
+
+        xhr.send();
+    });
+
+}
+
 const toCookie = (name, value) => {
     var cookie = [name, '=', JSON.stringify(value), '; domain=.', window.location.host.toString(), '; path=/;'].join('');
     document.cookie = cookie;
@@ -13,19 +40,13 @@ const fromCookie = (name) => {
 class ProductList {
     constructor(container = '.products') {
         this.container = container;
-        this.goods = [];
         this.allProducts = [];
-
-        this.fetchGoods();
-    }
-
-    fetchGoods() {
-        this.goods = [
-            { id: 1, title: 'Notebook', price: 20000 },
-            { id: 2, title: 'Mouse', price: 1500 },
-            { id: 3, title: 'Keyboard', price: 5000 },
-            { id: 4, title: 'Gamepad', price: 4500 },
-        ];
+        this.goods = [];
+        httpGet(`${API}/catalogData.json`)
+            .then((response) => {
+                this.goods = response;
+                this.render();
+            });
     }
 
     render() {
@@ -42,9 +63,9 @@ class ProductList {
 
 class ProductItem {
     constructor(product, img = 'https://via.placeholder.com/200x150') {
-        this.title = product.title;
+        this.product_name = product.product_name;
         this.price = product.price;
-        this.id = product.id;
+        this.id_product = product.id_product;
         this.img = img;
         this.openFromCart = 0;
         this.quantity = 0;
@@ -52,14 +73,14 @@ class ProductItem {
 
     render() {
         let button = (this.openFromCart === 0) ?
-            `<button class="buy-btn" onclick="addItemToCart(${this.id})">Купить</button>` :
-            `<button class="buy-btn" onclick="deleteItemFromCart(${this.id})">Удалить из корзины</button>`;
+            `<button class="buy-btn" onclick="addItemToCart(${this.id_product})">Купить</button>` :
+            `<button class="buy-btn" onclick="deleteItemFromCart(${this.id_product})">Удалить из корзины</button>`;
         let quantity = (this.openFromCart === 1) ? `<span class="quantity">${this.quantity}</span>` : '';
 
-        return `<div class="product-item" data-id="${this.id}">
+        return `<div class="product-item" data-id="${this.id_product}">
               <img src="${this.img}" alt="Some img">
               <div class="desc">
-                <h3>${this.title}</h3>
+                <h3>${this.product_name}</h3>
                 <p>${this.price} \u20bd</p>
                 ${button}
                 ${quantity}
@@ -72,8 +93,13 @@ class Cart {
     constructor() {
         this.goods = [];
         this.allProducts = [];
+        this.goods = [];
+        httpGet(`${API}/catalogData.json`)
+            .then((response) => {
+                this.backendProducts = response;
+                this.fetchGoods();
+            });
 
-        this.fetchGoods();
     }
 
     // В данной простой реализации, список добавленных товаров и кол-во хронятся в cookie
@@ -92,21 +118,15 @@ class Cart {
 
     // Эмитация получения данных о товаре с бэкенда
     returnProductsfromBackend(product) {
-        let productId = product.id;
-        let productQuantity = product.quantity;
+        if (this.backendProducts.length !== 0) {
+            let productId = product.id;
+            let productQuantity = product.quantity;
+            let findProduct = this.backendProducts.filter(el => el.id_product == productId)[0];
 
-        let backendGoods = [
-            { id: 1, title: 'Notebook', price: 20000 },
-            { id: 2, title: 'Mouse', price: 1500 },
-            { id: 3, title: 'Keyboard', price: 5000 },
-            { id: 4, title: 'Gamepad', price: 4500 },
-        ];
+            findProduct['quantity'] = productQuantity;
 
-        let findProduct = backendGoods.filter(el => el.id == productId)[0];
-
-        findProduct['quantity'] = productQuantity;
-
-        return findProduct;
+            return findProduct;
+        }
     }
 
     totalCartPrice() {
@@ -200,7 +220,6 @@ class Cart {
 
 // Рендер каталога
 const catalog = new ProductList();
-catalog.render();
 
 const cart = new Cart();
 var openBasket = () => {
