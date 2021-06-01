@@ -119,7 +119,6 @@ class Cart {
     }
 
     render() {
-        let listHtml = '';
         const block = document.getElementById('goods-list__product-box');
         block.innerHTML = '';
 
