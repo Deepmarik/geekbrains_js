@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0
+        }
+        
+        form[name=regform] {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid #000;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        .error-text {
+            color: red
+        }
+        
+        .input_error {
+            border-color: red
+        }
+        
+        input,
+        textarea {
+            padding: 5px;
+            resize: none;
+        }
+    </style>
+    <form name="regform" action="">
+        <h2 id="form-box__area__headline"></h2>
+        <p>Имя:
+            <input type="text" size=65 name="name"></p>
+        <p>E-mail:
+            <input type="text" size=65 name="email"></p>
+        <p>Телефон:
+            <input type="text" size=65 name="telephone" onclick="this.value=''" value="+7(000)000-0000"></p>
+        <p>Комментарий:
+            <textarea cols="55" name="comment"> </textarea></p>
+        <p>
+            <input type="submit" value="Отправить" name="submitButton"></p>
+    </form>
+
+    <script>
+        let displayError = (text) => {
+            return `<span class="error-text">${text}</span>`;
+        }
+
+        let removeErrors = () => {
+            document.querySelectorAll('.error-text').forEach(function(a) {
+                a.remove()
+            })
+            document.querySelectorAll('.input_error').forEach(function(a) {
+                a.classList.remove("input_error");
+            })
+        }
+
+        let checkName = (name) => {
+            let regexp = /^[A-Za-zА-Яа-я ]+$/;
+
+            if (name.value == '') {
+                name.insertAdjacentHTML('afterend', displayError('Заполните поле!'));
+                name.classList.add("input_error");
+
+                return false;
+            }
+
+            if (name.value.match(regexp))
+                return true;
+            else {
+                name.insertAdjacentHTML('afterend', displayError('Имя может содержать только буквы и пробел'));
+                name.classList.add("input_error");
+                name.focus();
+
+                return false;
+            }
+        };
+
+        let checkEmail = (email) => {
+            let regexp = /^[-._a-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$/;
+
+            if (email.value == '') {
+                email.insertAdjacentHTML('afterend', displayError('Заполните поле!'));
+                email.classList.add("input_error");
+
+                return false;
+            }
+
+            if (email.value.match(regexp))
+                return true;
+            else {
+                email.insertAdjacentHTML('afterend', displayError('Адрес эл. почты может содежрать латинские буквы (@, . - _)'));
+                email.classList.add("input_error");
+                email.focus();
+
+                return false;
+            }
+        };
+
+        let checkTel = (telephone) => {
+            let regexp = /^\+\d{1}\(\d{3}\)\d{3}-\d{4}$/;
+
+            if (telephone.value == '' || telephone.value == '+7(000)000-0000') {
+                telephone.insertAdjacentHTML('afterend', displayError('Заполните поле!'));
+                telephone.classList.add("input_error");
+
+                return false;
+            }
+
+            if (telephone.value.match(regexp))
+                return true;
+            else {
+                telephone.insertAdjacentHTML('afterend', displayError('Телефон введите в формате +7(000)000-0000'));
+                telephone.classList.add("input_error");
+                telephone.focus();
+
+                return false;
+            }
+        };
+
+        let form = document.forms.regform;
+        form.onsubmit = (event) => {
+            event.preventDefault();
+            removeErrors();
+
+            let name = form.elements.name;
+            let email = form.elements.email;
+            let telephone = form.elements.telephone;
+            let result = true;
+
+            if (!checkName(name)) result = false;
+            if (!checkEmail(email)) result = false;
+            if (!checkTel(telephone)) result = false;
+
+            if (!result)
+                alert('Ошибка, ввода данных');
+            else
+                alert('Данные приняты');
+        }
+    </script>
+</body>
+
+</html>
