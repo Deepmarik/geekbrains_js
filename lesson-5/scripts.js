@@ -7,7 +7,7 @@ let app = new Vue({
     data: {
         catalogUrl: '/catalogData.json',
         products: [],
-        imgCatalog: 'http://placehold.it/250x150',
+        imgCatalog: 'https://via.placeholder.com/150',
         searchLine: '',
         filteredProducts: [],
         isVisibleCart: false,
