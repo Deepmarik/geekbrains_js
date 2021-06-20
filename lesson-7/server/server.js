@@ -1,20 +1,17 @@
 const express = require('express');
 const fs = require('fs');
+const router = require('./cartRouter');
 const app = express();
 
-/**
- * Активируем мидлвары
- */
-app.use(express.json()); // Даем знать приложению, что работаем с json'ом
-//app.use('/', express.static('./public')); // запросы в корень нашего сайт отдают содержимое public
-
+app.use(express.json()); 
 app.use(express.static('../public'));
+app.use('/api/cart', router);
 
 /**
  * API Каталога
  */
 app.get('/api/products', (req, res) => {
-  fs.readFile('./server/db/products.json', 'utf-8', (err, data) => {
+  fs.readFile('./db/products.json', 'utf-8', (err, data) => {
     if (err) {
       res.send(JSON.stringify({result: 0, text: err}));
     } else {
@@ -27,7 +24,7 @@ app.get('/api/products', (req, res) => {
  * API Корзины
  */
 app.get('/api/cart', (req, res) => {
-  fs.readFile('./server/db/userCart.json', 'utf-8', (err, data) => {
+  fs.readFile('./db/userCart.json', 'utf-8', (err, data) => {
     if (err) {
       res.send({result: 0, text: err});
     } else {
@@ -38,7 +35,7 @@ app.get('/api/cart', (req, res) => {
 
 // Добавление нового товара в корзине
 app.post('/api/cart', (req, res) => {
-  fs.readFile('./server/db/userCart.json', 'utf-8', (err, data) => {
+  fs.readFile('./db/userCart.json', 'utf-8', (err, data) => {
     if (err) {
       res.sendStatus(404, JSON.stringify({result: 0, text: err}));
     } else {
@@ -47,7 +44,7 @@ app.post('/api/cart', (req, res) => {
       // добавляем новый товар
       cart.contents.push(req.body);
       // пишем обратно
-      fs.writeFile('./server/db/userCart.json', JSON.stringify(cart), (err) => {
+      fs.writeFile('./db/userCart.json', JSON.stringify(cart), (err) => {
         if (err) {
           res.send('{"result": 0}');
         } else {
@@ -60,7 +57,7 @@ app.post('/api/cart', (req, res) => {
 
 // Изменяем количество товара
 app.put('/api/cart/:id', (req, res) => {
-  fs.readFile('./server/db/userCart.json', 'utf-8', (err, data) => {
+  fs.readFile('./db/userCart.json', 'utf-8', (err, data) => {
     if (err) {
       res.sendStatus(404, JSON.stringify({result: 0, text: err}));
     } else {
@@ -71,7 +68,7 @@ app.put('/api/cart/:id', (req, res) => {
       // изменяем количество
       find.quantity += req.body.quantity;
       // пишем обратно
-      fs.writeFile('./server/db/userCart.json', JSON.stringify(cart), (err) => {
+      fs.writeFile('./db/userCart.json', JSON.stringify(cart), (err) => {
         if (err) {
           res.send('{"result": 0}');
         } else {
