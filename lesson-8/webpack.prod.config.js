@@ -5,6 +5,12 @@ const TerserWebpackPlugin = require('terser-webpack-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
+	watch: true,
+	watchOptions: {
+		ignored: /node_modules/,
+		aggregateTimeout: 200,
+		poll: 1000
+	},
     entry: {
         main: ["@babel/polyfill", "whatwg-fetch", "./src/public/index.js"]
     },

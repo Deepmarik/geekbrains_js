@@ -12,12 +12,6 @@ module.exports = {
         filename: "server/[name].js"
     },
     target: 'node',
-	watch: true,
-	watchOptions: {
-		ignored: /node_modules/,
-		aggregateTimeout: 200,
-		poll: 1000
-	},
     node: {
         // только для express
         __dirname: false,
