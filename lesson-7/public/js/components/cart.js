@@ -59,7 +59,9 @@ Vue.component('cart', {
         this.$parent.getJson('/api/cart')
             .then(data => {
                 for (let el of data.contents) {
-                    this.cartItems.push(el)
+                    this.cartItems.push(el);
+					this.cartCounter++;
+					this.cartTotalPrice += el.price;
                 }
             });
     },
