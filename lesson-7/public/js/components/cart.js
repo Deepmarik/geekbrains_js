@@ -4,7 +4,7 @@ Vue.component('cart', {
             //cartUrl: `/getBasket.json`,
             isVisibleCart: false,
             cartItems: [],
-            imgCart: `https://via.placeholder.com/150`,
+            imgCart: 'https://via.placeholder.com/150',
             cartCounter: 0,
             cartTotalPrice: 0,
         }
@@ -56,7 +56,7 @@ Vue.component('cart', {
         },
     },
     mounted() {
-        this.$parent.getJson(`/api/cart`)
+        this.$parent.getJson('/api/cart')
             .then(data => {
                 for (let el of data.contents) {
                     this.cartItems.push(el)

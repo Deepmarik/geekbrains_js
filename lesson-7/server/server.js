@@ -1,17 +1,18 @@
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const router = require('./cartRouter');
 const app = express();
 
 app.use(express.json()); 
-app.use(express.static('../public'));
+app.use(express.static(path.resolve(__dirname, '../public')));
 app.use('/api/cart', router);
 
 /**
  * API Каталога
  */
 app.get('/api/products', (req, res) => {
-  fs.readFile('./db/products.json', 'utf-8', (err, data) => {
+  fs.readFile(path.resolve(__dirname, './db/products.json'), 'utf-8', (err, data) => {
     if (err) {
       res.send(JSON.stringify({result: 0, text: err}));
     } else {
@@ -20,64 +21,6 @@ app.get('/api/products', (req, res) => {
   });
 });
 
-/**
- * API Корзины
- */
-app.get('/api/cart', (req, res) => {
-  fs.readFile('./db/userCart.json', 'utf-8', (err, data) => {
-    if (err) {
-      res.send({result: 0, text: err});
-    } else {
-      res.send(data);
-    }
-  });
-});
-
-// Добавление нового товара в корзине
-app.post('/api/cart', (req, res) => {
-  fs.readFile('./db/userCart.json', 'utf-8', (err, data) => {
-    if (err) {
-      res.sendStatus(404, JSON.stringify({result: 0, text: err}));
-    } else {
-      // парсим текущую корзину
-      const cart = JSON.parse(data);
-      // добавляем новый товар
-      cart.contents.push(req.body);
-      // пишем обратно
-      fs.writeFile('./db/userCart.json', JSON.stringify(cart), (err) => {
-        if (err) {
-          res.send('{"result": 0}');
-        } else {
-          res.send('{"result": 1}');
-        }
-      })
-    }
-  });
-});
-
-// Изменяем количество товара
-app.put('/api/cart/:id', (req, res) => {
-  fs.readFile('./db/userCart.json', 'utf-8', (err, data) => {
-    if (err) {
-      res.sendStatus(404, JSON.stringify({result: 0, text: err}));
-    } else {
-      // парсим текущую корзину
-      const cart = JSON.parse(data);
-      // ищем товар по id
-      const find = cart.contents.find(el => el.id_product === +req.params.id);
-      // изменяем количество
-      find.quantity += req.body.quantity;
-      // пишем обратно
-      fs.writeFile('./db/userCart.json', JSON.stringify(cart), (err) => {
-        if (err) {
-          res.send('{"result": 0}');
-        } else {
-          res.send('{"result": 1}');
-        }
-      })
-    }
-  });
-});
 
 /**
  * Запуск сервера
