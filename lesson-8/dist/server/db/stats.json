@@ -38,5 +38,1230 @@
         "time": "June 21st 2019, 8:21:43 pm",
         "prod_name": "Gamepad",
         "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:11:26 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:11:26 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:11:33 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:11:49 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:12:14 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:12:23 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:12:23 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:12:24 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:12:27 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:12:33 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:12:36 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:15:14 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:15:15 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:15:16 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:15:35 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:18:07 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:18:17 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:18:40 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:21:08 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:21:09 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:21:09 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:21:10 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:21:15 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:21:19 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:24:50 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:28:21 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:28:27 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:28:28 pm",
+        "prod_name": "Мышка",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:29:14 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:29:14 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:29:15 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:29:16 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:29:20 pm",
+        "prod_name": "Мышка",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:29:51 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:30:10 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:10 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:11 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:30:12 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:12 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:12 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:12 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:12 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:12 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:13 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:13 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:17 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:18 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:30:20 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:30:21 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:31:00 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:31:00 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:00 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:00 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:00 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:01 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:01 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:31:11 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:13 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:14 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:14 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:14 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:15 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:15 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:20 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:31:22 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:32:28 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:29 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:32:30 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:32:30 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:30 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:31 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:31 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:31 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:31 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:31 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:32 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:32 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:32 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:32 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:32 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:32 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:33 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:33 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:34 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:32:45 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:09 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:11 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:13 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:18 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:20 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:22 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:23 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:23 pm",
+        "prod_name": "Мышка",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:24 pm",
+        "prod_name": "Мышка",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:33:29 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:29 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:29 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:29 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:29 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:30 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:30 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:30 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:30 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:30 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:30 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:33:37 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:34:30 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:34:43 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:38:46 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:38:48 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:38:49 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:39:59 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:01 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:02 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:03 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:03 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:04 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:05 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:40:06 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:07 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:07 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:09 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:11 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:13 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:14 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:17 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:17 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:19 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:40:32 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:37 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:40:42 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:40:42 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:42 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:43 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:43 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:43 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:43 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:43 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:43 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:44 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:44 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:48 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:49 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:49 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:50 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:50 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:50 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:50 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:51 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:51 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:52 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:40:53 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:41:03 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:41:04 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:41:04 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:41:04 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:41:05 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:41:05 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:41:41 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:41:42 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:15 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:16 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:17 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:18 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:43:22 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:43:23 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:43:24 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:43:25 pm",
+        "prod_name": "Мышка",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:43:25 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:26 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:26 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:26 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:26 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:26 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:26 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:27 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:27 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:27 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:27 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:27 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:28 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:28 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:28 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:28 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:28 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:29 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:29 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:29 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:29 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:36 pm",
+        "prod_name": "Keyboard",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:43:39 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:40 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:43 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:45 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:47 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:43:48 pm",
+        "prod_name": "Мышка",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:43:50 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:50 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:50 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:50 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:51 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:51 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:51 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:51 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:51 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:52 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:52 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:52 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:52 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:52 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:53 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:54 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:54 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:43:55 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:43:59 pm",
+        "prod_name": "Keyboard",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:44:00 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:00 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:00 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:00 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:00 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:01 pm",
+        "prod_name": "Gamepad",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:44:01 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:01 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:02 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:02 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:02 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:03 pm",
+        "prod_name": "Ноутбук",
+        "action": "add"
+    },
+    {
+        "time": "July 7th 2021, 11:44:03 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:03 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:03 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:03 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:03 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:44:20 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:45:25 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:45:47 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:46:13 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:08 pm",
+        "prod_name": "Keyboard",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:32 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:35 pm",
+        "prod_name": "Gamepad",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:37 pm",
+        "prod_name": "Gamepad",
+        "action": "remove"
+    },
+    {
+        "time": "July 7th 2021, 11:48:42 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:42 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:43 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:44 pm",
+        "prod_name": "Ноутбук",
+        "action": "change"
+    },
+    {
+        "time": "July 7th 2021, 11:48:45 pm",
+        "prod_name": "Ноутбук",
+        "action": "remove"
     }
 ]

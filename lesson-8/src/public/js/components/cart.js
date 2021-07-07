@@ -10,7 +10,7 @@ const cartItem = {
                         <span class="count">Quantity: {{cartItem.quantity}}</span>
                     </div>
                     <div class="col-lg-2 col-sm-2 col-2 cart-detail-delete">
-                        <button class="del-btn" @click="$emit('remove', cartItem)">&times;</button>
+                        <button class="del-btn" @click="$emit('remove', cartItem); $root.$refs.cartproducts.remove(cartItem);">&times;</button>
                     </div>
                 </div>`
 };
@@ -52,11 +52,13 @@ export const cart = {
             }
         },
         remove(product){
+			let prodIndex = this.cartItems.findIndex(x => x.id_product === product.id_product);
+
             if(product.quantity > 1){
                 this.$parent.putJson(`/api/cart/${product.id_product}`, {quantity: -1})
                     .then(data => {
                         if(data.result){
-                            product.quantity--;
+							this.cartItems[prodIndex].quantity--;
 							this.cartTotalPrice -= product.price;
                         }
                     })
@@ -64,7 +66,7 @@ export const cart = {
                 this.$parent.deleteJson(`/api/cart/${product.id_product}`)
                     .then(data => {
                         if(data.result){
-                            this.cartItems.splice(this.cartItems.indexOf(product), 1);
+                            this.cartItems.splice(prodIndex, 1);
 							this.cartTotalPrice -= product.price;
                             this.cartCounter--;
                         }
@@ -75,10 +77,11 @@ export const cart = {
     mounted(){
         this.$parent.getJson(`/api/cart`)
             .then(data => {
+				console.log(data.contents);
                 for(let el of data.contents){
                     this.cartItems.push(el);
 					this.cartCounter++;
-					this.cartTotalPrice += el.price;
+					this.cartTotalPrice += el.price * el.quantity;
                 }
             });
     },

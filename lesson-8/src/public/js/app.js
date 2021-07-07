@@ -1,5 +1,6 @@
 import {cart} from './components/cart'
 import {products} from './components/product'
+import {cartproducts} from './components/cartproduct'
 import {search} from './components/search'
 import {error} from './components/error'
 
@@ -9,6 +10,7 @@ export const app = {
     components: {
       cart,
       products,
+      cartproducts,
       error,
       'search': search
     },

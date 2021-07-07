@@ -82,16 +82,18 @@ button {
     box-shadow: 0 0 10px 5px grey inset, 0 0 0 0 grey;
     min-height: 400px;
     border-radius: 15px;
+	margin-top: 200px;
 }
 
+.products  {
+	margin-top: 150px;
+}
 .product-item {
     float: left;
     display: inline-block;
     border-radius: 10px;
     margin-left: 30px;
-    margin-top: 200px;
     min-width: 27%;
-    height: 130px;
     text-align: center;
 }
 

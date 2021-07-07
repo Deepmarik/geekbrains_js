@@ -2,6 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+	watch: true,
+	watchOptions: {
+		ignored: /node_modules/
+	},
     entry: {
         main: ["@babel/polyfill", "whatwg-fetch", "./src/public/index.js"]
     },
@@ -37,6 +41,11 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "src/public/index.html",
             filename: "index.html",
+            excludeChunks: ['server']
+        }),
+		new HtmlWebpackPlugin({
+            template: "src/public/cart.html",
+            filename: "cart.html",
             excludeChunks: ['server']
         })
     ]
